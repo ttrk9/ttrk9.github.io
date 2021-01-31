@@ -2,6 +2,11 @@
 layout: default
 title: Tarak Sristy | Home
 ---
+<head>
+  {% if jekyll.environment == 'production' %}
+  {% include analytics.html %}
+  {% endif %}
+</head>
 <div class="blurb">
 <h1>Tarak Sristy</h1>
   <p>"Waste no time arguing about what a good man should be. <em>Be one</em>." - Marcus Aurelius</p>
