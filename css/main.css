@@ -45,9 +45,9 @@ ul.posts li {
 }
 .center {
   display: block;
-  margin-left: 300px;
+  margin-left: 200px;
   margin-right: auto;
   margin-top: 125px;
   margin-bottom: 125px;
-  width: 75%;
+  width: 60%;
 }
